@@ -1,0 +1,16 @@
+div {
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto lfr auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    border: 1px solid #020d1b;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    background-size: 100% 100%;
+    position: relative;
+}

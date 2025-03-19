@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>AudioMasters</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+</head>
+<body>
+    <div>
+        <header>
+            <h1>AudioMasters</h1>
+            Productos   Cuenta  Sobre nosotros  soporte
+        </header>
+        <main class="container">
+            <h2 class="productos">Nuestros equipos tienen la mayor calidad de fidelidad en audio.</h2>
+            <p>Microfonos</p>
+            <p>Audifonos</p>
+            <img src="img/AudioMasters.jpg"/>
+        </main>
+        <footer>
+            AudioMasters todos los derechos reservados 2025.
+        </footer>
+    </div>
+</body>
+</html>

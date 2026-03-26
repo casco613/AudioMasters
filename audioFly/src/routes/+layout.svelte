@@ -1,15 +1,17 @@
-<script lang="ts">
-    import logo from '$lib/assets/logo.png'
-    let { children } = $props()
-</script>
+<script>import "../app.css";
+import logo from '$lib/assets/logo.png'
+import { ShoppingCart } from 'lucide-svelte';
+import { User } from 'lucide-svelte';
+let { children } = $props()</script>
 
 <nav>
-    <img class="logo" src={logo} alt="AudioFly">
-    <a href="/">Home</a>
+    <a href="/">
+        <img class="logo" src="{logo}" alt="AudioFly" />
+    </a>
     <a href="/products">Products</a>
     <div class="nav-icons">
-        <button>Carrito</button>
-        <button>Login</button>
+        <button><ShoppingCart /></button>
+        <button><User /></button>
     </div>
 </nav>
 
@@ -20,8 +22,7 @@
         display: flex;
         align-items: center;
         background-color: #0f0f0f;
-        color: #0f0f0f;
-        gap: 3%;
+        gap: 2%;
     }
 
     a {
@@ -31,13 +32,10 @@
     }
 
     .nav-icons {
-        margin-left: auto;
-        background-color: #f5c518;
-        color: #0f0f0f;
+        color: #f5c518;
     }
 
     .logo {
         width: 10%;
-        height: auto;
     }
 </style>

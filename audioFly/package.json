@@ -35,13 +35,19 @@
 		"@sveltejs/kit": "^2.50.2",
 		"@sveltejs/package": "^2.5.7",
 		"@sveltejs/vite-plugin-svelte": "^6.2.4",
+		"@tailwindcss/typography": "^0.5.14",
+		"autoprefixer": "^10.4.20",
 		"publint": "^0.3.17",
 		"svelte": "^5.54.0",
 		"svelte-check": "^4.4.2",
+		"tailwindcss": "^3.4.9",
 		"typescript": "^5.9.3",
 		"vite": "^7.3.1"
 	},
 	"keywords": [
 		"svelte"
-	]
+	],
+	"dependencies": {
+		"lucide-svelte": "^1.0.1"
+	}
 }

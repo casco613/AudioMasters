@@ -3,6 +3,7 @@
     import logo from '$lib/assets/logo.png';
     import { ShoppingCart } from 'lucide-svelte';
     import { User } from 'lucide-svelte';
+    import Footer from "$lib/components/Footer.svelte";
     let { children } = $props();
 </script>
 
@@ -19,6 +20,8 @@
 </nav>
 
 {@render children()}
+
+<Footer />
 
 <style>
 

@@ -23,7 +23,7 @@
 <style>
 
     .logo {
-        width: 5vw;
+        width: 4vw;
         height: auto;
     }
 

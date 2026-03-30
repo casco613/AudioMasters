@@ -5,36 +5,58 @@
 <footer>
     <div class="footer-colum">
         <div class="social-media">
-            <h2>Redes Sociales</h2>
-            <button><SiInstagram /></button>
-            <button><SiFacebook /></button>
-            <button><SiX /></button>
+            <p>Redes Sociales:</p>
+            <a class="icon" href="https://instagram.com"><SiInstagram /></a>
+            <a class="icon" href="https://facebook.com"><SiFacebook /></a>
+            <a class="icon" href="https://x.com"><SiX /></a>
         </div>
         <div class="contact">
-            <h2>Telefono: 5544935900</h2>
-            <h2>Direccion: Blvd. Benito Juarez 3122, Del Costo CDMX México</h2>
+            <p>Telefono: 5544913900</p>
+            <p>Direccion: Blvd. Benito Juarez 3122, Del Costo CDMX México</p>
         </div>
-        <div class="Payment-metoths">
-            <h2>Métodos de pago</h2>
-            <button><SiVisa /></button>
-            <button><SiMastercard /></button>
-            <button><SiPaypal /></button>
+        <div class="payment-metoths">
+            <p>Métodos de pago:</p>
+            <span class="icon"><SiVisa /></span>
+            <span class="icon"><SiMastercard /></span>
+            <span class="icon"><SiPaypal /></span>
         </div>
     </div>
 </footer>
 
 <style>
     footer {
-        background-color: #f5c518;
+        background-color: #f5c518dd;
+        height: 5vw;
+        width: 100%;
+        display: flex;
+        margin-top: auto;
+    }
+
+    .footer-colum {
+        font-size: 1.3vw;
         display: flex;
         align-items: center;
+        width: 100%;
+        gap: 1.3vw;
     }
 
     .social-media {
-        align-items: start;
+        display: flex;
+        gap: 1vw;
     }
 
     .contact {
-        align-items: center;
+        display: flex;
+        gap: 1vw;
+    }
+
+    .payment-metoths {
+        display: flex;
+        gap: 1vw;
+    }
+
+    .icon :global(svg) {
+        width: 1.3vw;
+        height: 1.3vw;
     }
 </style>

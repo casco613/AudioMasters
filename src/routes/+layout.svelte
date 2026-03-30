@@ -6,7 +6,6 @@
     import Footer from "$lib/components/Footer.svelte";
     let { children } = $props();
 </script>
-
 <nav>
     <a href="/">
         <img class="logo" src="{logo}" alt="AudioFly" />
@@ -22,7 +21,6 @@
 {@render children()}
 
 <Footer />
-
 <style>
 
     .logo {
